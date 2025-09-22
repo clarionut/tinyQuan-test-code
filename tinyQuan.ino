@@ -58,7 +58,7 @@ bool volatile rotary_change = false;
 // screen saver
 volatile bool screenSave = 0;
 unsigned long screenMillis;
-unsigned long ssTimeout = 10000; // Change this value to the required timeout in milliseconds
+unsigned long ssTimeout = 30000; // Change this value to the required timeout in milliseconds
 
 void setup() {
 
